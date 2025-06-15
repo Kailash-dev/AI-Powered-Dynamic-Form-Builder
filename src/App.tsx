@@ -5,11 +5,12 @@ import FormSelector from './components/FormSelector';
 import HeroSection from './components/Hero';
 
 const App = () => (
-  <BrowserRouter>
-    <Routes>
-      <Route path="/" element={<HeroSection />} />
-      <Route path="/forms" element={<FormSelector />} />
-    </Routes>
+  <BrowserRouter basename="/AI-Powered-Dynamic-Form-Builder">
+  <Routes>
+  <Route path="/" element={<HeroSection />} />
+  <Route path="/forms" element={<FormSelector />} />
+  <Route path="*" element={<HeroSection />} />  {/* fallback */}
+</Routes>
   </BrowserRouter>
 );
 

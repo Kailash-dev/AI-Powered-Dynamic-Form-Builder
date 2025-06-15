@@ -2,7 +2,7 @@
   "name": "ai-form-builder",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://kailash-dev.github.io/ai-form-builder",
+  "homepage": "https://kailash-dev.github.io/AI-Powered-Dynamic-Form-Builder",
   "dependencies": {
     "@heroicons/react": "^2.2.0",
     "@testing-library/dom": "^10.4.0",
